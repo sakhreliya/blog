@@ -7,7 +7,7 @@ const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
 
-// MongoDB સાથે કનેક્ટ કરો
+// MongoDB connect
 connectDB();
 
 app.use(express.json());
